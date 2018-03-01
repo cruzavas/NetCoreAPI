@@ -1,0 +1,11 @@
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\bin\Debug\netcoreapp2.0\MvcMovie1.deps.json
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\bin\Debug\netcoreapp2.0\MvcMovie1.runtimeconfig.json
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\bin\Debug\netcoreapp2.0\MvcMovie1.runtimeconfig.dev.json
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\bin\Debug\netcoreapp2.0\MvcMovie1.dll
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\bin\Debug\netcoreapp2.0\MvcMovie1.pdb
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\obj\Debug\netcoreapp2.0\MvcMovie1.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\obj\Debug\netcoreapp2.0\MvcMovie1.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\obj\Debug\netcoreapp2.0\MvcMovie1.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\obj\Debug\netcoreapp2.0\MvcMovie1.AssemblyInfo.cs
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\obj\Debug\netcoreapp2.0\MvcMovie1.dll
+C:\Users\Gustavo\Documents\Net core\MvcMovie1\MvcMovie1\obj\Debug\netcoreapp2.0\MvcMovie1.pdb
