@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MvcMovie1.Models;
 
@@ -19,28 +17,17 @@ namespace MvcMovie1.Areas.API.Controllers
             _context = context;
         }
 
-        //// GET: api/Movies
-        //[HttpGet]
-        //public IActionResult Get()
-        //{
-        //    return Ok("Hello world");
-        //}
-
         //GET: api/Movies
+        [HttpGet]
+        [AllowAnonymous]
         public IEnumerable<Movie> GetAll()
         {
+            var test = _context.Movie.ToList();
             return _context.Movie.ToList();
         }
 
-        //// GET: api/Movies/5
-        //[HttpGet("{id}", Name = "Get")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
         // GET: api/Movies/5
-        [HttpGet("{id}", Name = "GetId")]
+        [HttpGet("{id}", Name = "GetId")] //[EnableCors("AllowSpecificOrigin")]
         public IActionResult GetById(long id)
         {
             var item = _context.Movie.FirstOrDefault(t => t.ID == id);
